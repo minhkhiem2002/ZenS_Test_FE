@@ -1,0 +1,40 @@
+.container{
+    display: flex; 
+    align-items: center;
+    margin-top: 7px;
+    height: 10vh;
+    .logoImage{
+        width: 80px;
+        height: 70px;
+        margin-left: 18.2%;
+    }
+    .account{
+        display: flex; 
+        margin-left: auto;
+        margin-right: 14%;
+        .account-left{
+            display: flex;
+            flex-direction: column;
+            .Name1{
+                margin-top: 13px;
+                font-size: 14px;
+                color: rgb(168, 166, 166);
+                font-style: italic;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+            .Name2{
+                font-size: 15px;
+                font-weight: 500;
+                margin-top: 0;
+                margin-left: auto;
+            }
+        }
+        .account-right{
+            .logoAvatar{
+                width: 75px;
+                height: 70px;
+            }
+        }
+    }
+}
